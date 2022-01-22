@@ -74,7 +74,7 @@ class Login  implements ActionListener {
             String u = t1.getText();
             String v = t2.getText();
 
-            String q = "select * from login where username='" + u + "' and password='" + v + "'";
+            String q = "select * from Login where userName='" + u + "' and passWord='" + v + "'";
 
 
             ResultSet rs = c1.statementInst.executeQuery(q);
