@@ -17,7 +17,7 @@ class View_Employee implements ActionListener {
         l1 = new JLabel();
         l1.setBounds(0, 0, 500, 270);
         l1.setLayout(null);
-        ImageIcon img = new ImageIcon("C:\\Users\\vmcri\\IdeaProjects\\EmployeeManagementSystem\\src\\main\\java\\icons\\view.jpg");
+        ImageIcon img = new ImageIcon("..\\EmployeeManagementSystem\\src\\main\\java\\icons\\view.jpg");
         l1.setIcon(img);
 
 

@@ -16,7 +16,7 @@ class Search_Employee implements ActionListener{
         l5=new JLabel();
         l5.setBounds(0,0,500,270);
         l5.setLayout(null);
-        ImageIcon img=new ImageIcon("C:\\Users\\vmcri\\IdeaProjects\\EmployeeManagementSystem\\src\\main\\java\\icons\\view.jpg");
+        ImageIcon img=new ImageIcon("..\\EmployeeManagementSystem\\src\\main\\java\\icons\\view.jpg");
         l5.setIcon(img);
 
 

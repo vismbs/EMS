@@ -16,7 +16,7 @@ class Details  implements ActionListener {
         l1 = new JLabel();
         l1.setBounds(0, 0, 700, 500);
         l1.setLayout(null);
-        ImageIcon i1 = new ImageIcon("C:\\Users\\vmcri\\IdeaProjects\\EmployeeManagementSystem\\src\\main\\java\\icons\\details.jpg");
+        ImageIcon i1 = new ImageIcon("..\\EmployeeManagementSystem\\src\\main\\java\\icons\\details.jpg");
         l1.setIcon(i1);
         f.add(l1);
 

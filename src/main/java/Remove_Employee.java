@@ -17,7 +17,7 @@ class Remove_Employee implements ActionListener {
         l5 = new JLabel();
         l5.setBounds(0, 0, 500, 500);
         l5.setLayout(null);
-        ImageIcon img = new ImageIcon("C:\\Users\\vmcri\\IdeaProjects\\EmployeeManagementSystem\\src\\main\\java\\icons\\remove.jpg");
+        ImageIcon img = new ImageIcon("..\\EmployeeManagementSystem\\src\\main\\java\\icons\\remove.jpg");
         l5.setIcon(img);
         f.add(l5);
 

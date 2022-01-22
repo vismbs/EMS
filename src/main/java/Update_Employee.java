@@ -25,7 +25,7 @@ class Update_Employee extends Add_Employee implements ActionListener {
         id15 = new JLabel();
         id15.setBounds(0, 0, 900, 500);
         id15.setLayout(null);
-        ImageIcon img = new ImageIcon("EmployeeManagementSystem\\src\\main\\java\\icons\\add_employee.jpg");
+        ImageIcon img = new ImageIcon("..\\EmployeeManagementSystem\\src\\main\\java\\icons\\add_employee.jpg");
         id15.setIcon(img);
 
         id8 = new JLabel("Update Employee Detail:");

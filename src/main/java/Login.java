@@ -34,7 +34,7 @@ class Login  implements ActionListener {
         t2.setBounds(150, 70, 150, 30);
         f.add(t2);
 
-        ImageIcon i1 = new ImageIcon("C:\\Users\\vmcri\\IdeaProjects\\EmployeeManagementSystem\\src\\main\\java\\icons\\login.jpg");
+        ImageIcon i1 = new ImageIcon("..\\EmployeeManagementSystem\\src\\main\\java\\icons\\login.jpg");
         Image i2 = i1.getImage().getScaledInstance(150, 150, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel l3 = new JLabel(i3);
