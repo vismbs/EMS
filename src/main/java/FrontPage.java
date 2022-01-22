@@ -1,49 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
 
-//public class FrontPage extends JFrame {
-//    FrontPage() {
-//        this.setTitle("Employee Management System");
-//        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        this.setSize(840,480);
-//        this.setVisible(true);
-//        this.setResizable(false);
-//        this.getContentPane().setBackground(new Color(255,255,255));
-//        this.setLayout(null);
-//
-//        //TEXT PANEL
-//        JPanel textPanel = new JPanel();
-//        JLabel textLabel = new JLabel();
-//        textLabel.setText("EMPLOYEE MANAGEMENT SYSTEM");
-//        textLabel.setFont(new Font("Calibri", Font.BOLD, 30));
-//        textPanel.setLayout(null);
-//        textLabel.setBounds(175,5,840,100);
-//        textPanel.setBounds(0,0,840,100);
-//        textPanel.setBackground(Color.GREEN);
-//        textPanel.add(textLabel);
-//
-//        //IMAGE PANEL
-//        JPanel imagePanel = new JPanel();
-//        imagePanel.setBounds(0,100,420,380);
-//        imagePanel.setBackground(Color.BLACK);
-//
-//        //BUTTON PANEL
-//        JButton buttonBox = new JButton();
-//        JPanel buttonPanel = new JPanel();
-//        buttonPanel.add(buttonBox);
-//        buttonPanel.setLayout(null);
-//        buttonPanel.setBounds(420,100,420,380);
-//        buttonBox.setBounds(100,130,200,75);
-//        buttonPanel.setBackground(Color.GRAY);
-//
-//        this.add(imagePanel);
-//        this.add(textPanel);
-//        this.add(buttonPanel);
-//    }
-//}
-
-import java.awt.*;
-import javax.swing.*;
 import java.lang.Thread;
 import java.awt.event.*;
 
@@ -52,6 +9,7 @@ class FrontPage implements ActionListener {
     JLabel id, l1;
     JButton b;
 
+    @SuppressWarnings("ThrowablePrintedToSystemOut")
     FrontPage() {
 
         f = new JFrame("Employee Management System");
@@ -101,11 +59,12 @@ class FrontPage implements ActionListener {
             try {
                 Thread.sleep(500); //1000 = 1 second
             } catch (Exception e) {
+                System.out.println(e);
             }
             lid.setVisible(true);
             try {
                 Thread.sleep(500);
-            } catch (Exception e) {
+            } catch (Exception ignored) {
             }
         }
 
