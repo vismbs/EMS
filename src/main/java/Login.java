@@ -79,8 +79,8 @@ class Login  implements ActionListener {
 
             ResultSet rs = c1.statementInst.executeQuery(q);
             if (rs.next()) {
-//                new details().f.setVisible(true);
-//                f.setVisible(false);
+                new Details().f.setVisible(true);
+                f.setVisible(false);
 
                 System.out.println("Hello");
             } else {
