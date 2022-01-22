@@ -21,7 +21,7 @@ public class EMSMain {
 ////                ")";
 ////        String SQLString = "DROP TABLE Employee";
 //        Conn.statementInst.executeUpdate(SQLTxt);
-        new Search_Employee();
+        new Remove_Employee();
 
     }
 }

@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/src/main/java/Add_Employee.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/EMSMain.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/Login.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Remove_Employee.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/main/java/Update_Employee.java" dialect="GenericSQL" />
   </component>
 </project>
